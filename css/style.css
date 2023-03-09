@@ -1,0 +1,247 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+#global {
+  width: 85%;
+  margin: 0px auto;
+  margin-top: 20px;
+  background: #ffff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+#logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 76px;
+  color: #ffff;
+  text-align: center;
+  width: 500px;
+  height: 85px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#menu {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#menu ul {
+  line-height: 46px;
+}
+
+#menu ul li {
+  height: 46px;
+  display: inline-block;
+  transition: all 300ms;
+}
+
+#menu ul li a {
+  display: block;
+  color: #ffff;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#contenct {
+  width: 97%;
+  margin: 0px auto;
+}
+#posts {
+  width: 60%;
+  float: left;
+  font-family: Helvetica, arial;
+}
+.post {
+  padding: 7px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post .date {
+  color: #808080;
+  display: block;
+  margin-top: 5px;
+}
+
+.post p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.button-more {
+  text-align: center;
+  display: block;
+  padding: 14px;
+  color: #fff;
+  border: 2px #333 solid;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 13%;
+  margin-bottom: 20px;
+}
+
+#sidebar {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 31%;
+  float: right;
+}
+
+#sidebar h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar span {
+  background: #fff;
+  padding: 5px;
+}
+
+#sidebar img {
+  width: 100%;
+}
+#sidebar p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  width: 90%;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 4px #ccc;
+  margin-top: 5px;
+}
+
+form input[type="submit"] {
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #333;
+  cursor: pointer;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  height: 47px;
+  background: rgb(51, 51, 51, 0.7);
+  margin: 0px auto;
+  width: 85%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+.bx-viewport {
+  height: 250px !important ;
+}
+
+#selector-theme {
+  position: fixed;
+  top: 40%;
+  background: rgb(51, 51, 51, 0.5);
+  width: 50px;
+  height: 100px;
+}
+
+#to-green,
+#to-red,
+#to-blue {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #fff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#to-green {
+  background: #235e3d;
+}
+
+#to-red {
+  background: #ca3413;
+}
+
+#to-blue {
+  background: #3074f1;
+}
+
+.go-up {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+#box {
+  width: 60%;
+  float: left;
+  margin-top: 40px;
+}
+
+#accordion {
+  margin-top: 20px;
+}
+
+#clock {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  border: 5px dashed #333;
+  width: 25%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+#form_contact {
+  width: 60%;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#form_contact label {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.form-error {
+  font-size: 13px;
+  background: #ca3413;
+  padding: 10px;
+  color: #eee;
+  width: 80%;
+}
